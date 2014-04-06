@@ -14,6 +14,10 @@
 # limitations under the License.
 #
 
+# media
+PRODUCT_COPY_FILES += \
+    vendor/huawei/u8951/proprietary/media/bootanimation.zip:system/media/bootanimation.zip
+
 # bin
 PRODUCT_COPY_FILES += \
     vendor/huawei/u8951/proprietary/bin/hostapd:system/bin/hostapd \
