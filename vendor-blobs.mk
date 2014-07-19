@@ -14,6 +14,9 @@
 # limitations under the License.
 #
 
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += vendor/huawei/u8951/overlay
+
 # media
 PRODUCT_COPY_FILES += \
     vendor/huawei/u8951/proprietary/media/bootanimation.zip:system/media/bootanimation.zip
